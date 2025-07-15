@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="T:Api.Controllers.AsignarTareaController">
+            <summary>
+            Controlador de Usuario
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.AsignarTareaController.#ctor(MediatR.ISender)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.AsignarTareaController.Create(Domain.Dto.Request.AsignarTareaRequest)">
+            <summary>
+            Metodo para la creacion asignacion de la tarea      
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.AsignarTareaController.Delete(System.Int32)">
+            <summary>
+            Metodo para la eliminar asignacion de tarea     
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.AsignarTareaController.GetById(System.Int32)">
+            <summary>
+            Metodo para la tareas asignadas por usuario    
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.AsignarTareaController.GetAllTareasAsignadas">
+            <summary>
+            Metodo para la obtener todas las tareas asignadas
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.AsignarTareaController.GetAllTareasSinAsignar">
+            <summary>
+            Metodo para la obtener todas las tareas sin asignar
+            </summary>
+        </member>
+        <member name="T:Api.Controllers.TareaController">
+            <summary>
+            Controlador de Tarea
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.#ctor(MediatR.ISender)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.Create(Domain.Dto.Request.TareaRequest)">
+            <summary>
+            Metodo para que el usuario guarde todas sus tareas
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.Update(Domain.Dto.Request.TareaupdateRequest)">
+            <summary>
+            Metodo para que el usuario actualice el estado de una tarea
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.Delete(System.Int32)">
+            <summary>
+            Metodo para que el usuario elimine una tarea
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.TareaController.GetAll">
+            <summary>
+            Metodo para que el usuario obtenga todas las tareas
+            </summary>
+        </member>
+        <member name="T:Api.Controllers.UsuarioController">
+            <summary>
+            Controlador de Usuario
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.#ctor(MediatR.ISender)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Create(Domain.Dto.Request.UsuarioRequest)">
+             <summary>
+             Metodo para la creacion del usuario con token      
+             </summary>
+            
+             <returns></returns>
+             /// <remarks>
+             Request de ejemplo:
+              
+                 {
+                    "NameUsuario": "prueba",
+                    "Email": "prueba@gmail.com",
+                    "Password": "cHJ1RUJB"
+                   
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Update(Domain.Dto.Request.UsuarioUpdateRequest)">
+             <summary>
+             Metodo para la actualizar del usuario     
+             </summary>
+            
+             <returns></returns>
+             /// <remarks>
+             Request de ejemplo:
+              
+                 {
+                    "Id": "1",
+                    "NameUsuario": "prueba",
+                    "Email": "prueba@gmail.com",
+                    "Password": "cHJ1RUJB"
+                    "Idrol": 2
+                   
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Delete(System.Int32)">
+            <summary>
+            Metodo para la eliminar el usuario     
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.GetById(System.Int32)">
+            <summary>
+            Metodo para la obtener un usuario por id    
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.GetAll">
+            <summary>
+            Metodo para la obtener todos los usuario
+            </summary>
+        </member>
+        <member name="T:ApiRest.Controllers.AuthenticationController">
+            <summary>
+            Controller of Authentication
+            </summary>
+        </member>
+        <member name="M:ApiRest.Controllers.AuthenticationController.#ctor(MediatR.ISender)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:ApiRest.Controllers.AuthenticationController.Authentication(Domain.Dto.Request.TokenCreateRequest)">
+             <summary>
+             Metodo de autenticacion      
+             </summary>
+              
+             <returns></returns>
+             /// <remarks>
+             Request example:
+              
+                 {
+                    "UserName": "prueba",
+                    "Password": "cHJ1RUJB"
+             
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:ApiRest.Controllers.AuthenticationController.Create(Domain.Dto.Request.UsuarioRequest)">
+             <summary>
+             Metodo para la creacion del usuario sin token      
+             </summary>
+            
+             <returns></returns>
+             /// <remarks>
+             Request de ejemplo:
+              
+                 {
+                    "NameUsuario": "prueba",
+                    "Email": "prueba@gmail.com",
+                    "Password": "cHJ1RUJB"
+                   
+                 }
+            
+             </remarks>
+        </member>
+        <member name="T:ApiRest.Helpers.AuthorizeAttribute">
+            <summary>
+            Clase validacion de token
+            </summary>
+        </member>
+        <member name="M:ApiRest.Helpers.AuthorizeAttribute.OnAuthorization(Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext)">
+            <summary>
+            Metodo que valida el token
+            </summary>
+        </member>
+        <member name="T:ApiRest.Middlewares.ExceptionHandlingMiddleware">
+            <summary>
+            Middleware de comprobacion de los errores  o excepciones
+            </summary>
+        </member>
+        <member name="M:ApiRest.Middlewares.ExceptionHandlingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:ApiRest.Middlewares.ExceptionHandlingMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Metodo para la generacion de los errores de la aplicacion
+            </summary>
+        </member>
+        <member name="T:ApiRest.Middlewares.JwtMiddleware">
+            <summary>
+            Middleware de comprobacion del token
+            </summary>
+        </member>
+        <member name="M:ApiRest.Middlewares.JwtMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:ApiRest.Middlewares.JwtMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,MediatR.ISender)">
+            <summary>
+            Metodo para validar el token
+            </summary>
+        </member>
+    </members>
+</doc>

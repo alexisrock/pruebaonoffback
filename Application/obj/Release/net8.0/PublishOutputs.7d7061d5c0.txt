@@ -1,0 +1,17 @@
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Application.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Application.deps.json
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Application.pdb
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\AutoMapper.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\FluentValidation.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\FluentValidation.AspNetCore.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\FluentValidation.DependencyInjectionExtensions.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\MediatR.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\MediatR.Contracts.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Microsoft.Bcl.Memory.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Microsoft.IdentityModel.Abstractions.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Microsoft.IdentityModel.Logging.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Microsoft.IdentityModel.Tokens.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\System.IdentityModel.Tokens.Jwt.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Domain.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Application\bin\Release\net8.0\publish\Domain.pdb

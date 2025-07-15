@@ -1,0 +1,6 @@
+D:\Documentos\Projects\C#\PruebaIntexus\Domain\bin\Release\net8.0\publish\Domain.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Domain\bin\Release\net8.0\publish\Domain.deps.json
+D:\Documentos\Projects\C#\PruebaIntexus\Domain\bin\Release\net8.0\publish\Domain.pdb
+D:\Documentos\Projects\C#\PruebaIntexus\Domain\bin\Release\net8.0\publish\MediatR.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Domain\bin\Release\net8.0\publish\MediatR.Contracts.dll
+D:\Documentos\Projects\C#\PruebaIntexus\Domain\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
