@@ -12,13 +12,13 @@ namespace Infrastructure.Repository
 {
     public class ConfigurationRepository : IConfigurationRepository
     {
-        private readonly IRepository<Configuration> repository;
+        private readonly IRepository<Domain.Entities.Configuration> repository;
 
-        public ConfigurationRepository(IRepository<Configuration> _repository)
+        public ConfigurationRepository(IRepository<Domain.Entities.Configuration> _repository)
         {
             repository = _repository;
         }
-        public async  Task<Configuration?> GetByParam(Expression<Func<Configuration, bool>> obj)
+        public async  Task<Domain.Entities.Configuration?> GetByParam(Expression<Func<Domain.Entities.Configuration, bool>> obj)
         {
            return await repository.GetByParam(obj);
         }

@@ -1,12 +1,134 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|c:\\users\\vboxuser\\documents\\projects\\net\\pruebaonoffback\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17F8FB74-906E-497C-A699-9EA20B20702F}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|c:\\users\\vboxuser\\documents\\projects\\net\\pruebaonoffback\\application\\service\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F940F8-D7E0-49A5-853C-A6EB3E81E07B}|Application\\Application.csproj|solutionrelative:application\\service\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|c:\\users\\vboxuser\\documents\\projects\\net\\pruebaonoffback\\infrastructure\\pruebacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\pruebacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|c:\\users\\vboxuser\\documents\\projects\\net\\pruebaonoffback\\infrastructure\\configuration\\settingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configuration\\settingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|c:\\users\\vboxuser\\documents\\projects\\net\\pruebaonoffback\\infrastructure\\repository\\configurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\configurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|c:\\users\\vboxuser\\documents\\projects\\net\\pruebaonoffback\\domain\\entities\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE6BB19-5A70-42C5-9F43-8BDC15C8AA0F}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|c:\\users\\vboxuser\\documents\\projects\\net\\pruebaonoffback\\infrastructure\\configuration\\contactoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D49DBE-0E62-47A2-B862-48821930E8FD}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configuration\\contactoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T15:10:58.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PruebaContext.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Infrastructure\\PruebaContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\PruebaContext.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Infrastructure\\PruebaContext.cs",
+              "RelativeToolTip": "Infrastructure\\PruebaContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T15:05:54.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfigurationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Infrastructure\\Repository\\ConfigurationRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\ConfigurationRepository.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Infrastructure\\Repository\\ConfigurationRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\ConfigurationRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAApwBAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:56:49.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Infrastructure\\Configuration\\SettingConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configuration\\SettingConfiguration.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Infrastructure\\Configuration\\SettingConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configuration\\SettingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:55:53.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Application\\Service\\TokenHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\TokenHandler.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Application\\Service\\TokenHandler.cs",
+              "RelativeToolTip": "Application\\Service\\TokenHandler.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAqwKkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:49:48.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Domain\\Entities\\Configuration.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Configuration.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Domain\\Entities\\Configuration.cs",
+              "RelativeToolTip": "Domain\\Entities\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:58:49.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Infrastructure\\Configuration\\ContactoConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configuration\\ContactoConfiguration.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\Projects\\NET\\pruebaonoffback\\Infrastructure\\Configuration\\ContactoConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configuration\\ContactoConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:59:07.362Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -406,6 +406,14 @@ D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.xml
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.pdb
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\Api.genruntimeconfig.cache
 D:\Documentos\Projects\C#\PruebaIntexus\Api\obj\Debug\net8.0\ref\Api.dll
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.csproj.AssemblyReference.cache
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.AssemblyInfoInputs.cache
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.AssemblyInfo.cs
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.csproj.CoreCompileInputs.cache
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.sourcelink.json
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\bin\Debug\net8.0\appsettings.json
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\bin\Debug\net8.0\Api.staticwebassets.endpoints.json
@@ -600,15 +608,6 @@ C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\bin\Debug\net8.0\In
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\bin\Debug\net8.0\Application.pdb
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\bin\Debug\net8.0\Infrastructure.pdb
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\bin\Debug\net8.0\Domain.pdb
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.csproj.AssemblyReference.cache
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.AssemblyInfoInputs.cache
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.AssemblyInfo.cs
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.csproj.CoreCompileInputs.cache
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.sourcelink.json
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -617,7 +616,6 @@ C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\st
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.csproj.Up2Date
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.dll
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\refint\Api.dll
@@ -625,3 +623,5 @@ C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Ap
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.pdb
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.genruntimeconfig.cache
 C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\ref\Api.dll
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vboxuser\Documents\Projects\NET\pruebaonoffback\Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

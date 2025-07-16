@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Infrastructure.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -17,7 +18,7 @@ namespace Infrastructure
         public virtual DbSet<Usuario>? Usuario { get; set; }
         public virtual DbSet<Rol>? Rol { get; set; }
         public virtual DbSet<AsignarTarea>? AsignarTarea { get; set; }
-        public virtual DbSet<Configuration>? Configuraciones { get; set; }
+        public virtual DbSet<Domain.Entities.Configuration>? Configuration { get; set; }
         public virtual DbSet<AsignarTareaIdUsuario>? AsignarTareaIdUsuario { get; set; }
         public virtual DbSet<TareaAsignadas>? TareaAsignadas { get; set; }
         public virtual DbSet<TareasSinAsignar>? TareasSinAsignar { get; set; }
@@ -29,6 +30,18 @@ namespace Infrastructure
             modelBuilder.Entity<AsignarTareaIdUsuario>().HasNoKey().ToView("SPGetAsignacionTareasByIdUsuario");
             modelBuilder.Entity<TareaAsignadas>().HasNoKey().ToView("SPGetAsignacionTareas");
             modelBuilder.Entity<TareasSinAsignar>().HasNoKey().ToView("SPGettareaSinAsignacion");
+            modelBuilder.ApplyConfiguration(new TareaConfiguration());
+            modelBuilder.ApplyConfiguration(new RolConfiguration());
+            modelBuilder.ApplyConfiguration(new UsuarioConfiguration());
+            modelBuilder.ApplyConfiguration(new AsignarTareaConfiguration());
+            modelBuilder.ApplyConfiguration(new RolConfiguration());
+            modelBuilder.ApplyConfiguration(new ContactoConfiguration());
+
+            
+
+
+
+
 
 
         }

@@ -4,7 +4,7 @@ using Domain.Common.Enum;
 using Domain.Dto.Request;
 using Domain.Dto.Response;
 using Domain.Entities;
-using Domain.Exceptions; 
+using Domain.Exceptions;
 using Domain.Interfaces;
 using FluentValidation;
 using MediatR;
@@ -14,7 +14,7 @@ using System.Net;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
- 
+
 
 namespace Application.Services
 {
@@ -22,14 +22,15 @@ namespace Application.Services
     /// This class represent all service of validation  token
     /// 
     /// </summary>
-    public class TokenHandler :IRequestHandler<TokenRequest, bool>,
+    public class TokenHandler : IRequestHandler<TokenRequest, bool>,
         IRequestHandler<TokenCreateRequest, TokenResponse>
     {
         private readonly IConfigurationRepository configuiuracionRepository;
         private readonly IUsuarioRepository usuarioRepository;
         private readonly IValidator<TokenCreateRequest> validator;
 
-        public TokenHandler(IConfigurationRepository configuiuracionRepository, IUsuarioRepository usuarioRepository, IValidator<TokenCreateRequest> _validator) {         
+        public TokenHandler(IConfigurationRepository configuiuracionRepository, IUsuarioRepository usuarioRepository, IValidator<TokenCreateRequest> _validator)
+        {
             this.configuiuracionRepository = configuiuracionRepository;
             this.usuarioRepository = usuarioRepository;
             validator = _validator;
@@ -54,13 +55,13 @@ namespace Application.Services
 
                 var user = await ValidateUserName(request.Email);
                 if (user is null)
-                {                
+                {
                     throw new ApiException("Usuario no encontrado", (int)System.Net.HttpStatusCode.Unauthorized);
                 }
-              
+
                 string pass = request.Password.DecodeBase64Password();
                 if (!await ValidatePassword(pass, user.Password))
-                {                   
+                {
                     throw new ApiException("Password no valido", (int)System.Net.HttpStatusCode.Unauthorized);
                 }
 
@@ -79,7 +80,7 @@ namespace Application.Services
         }
         private async Task<TokenResponse> MapperUserTokenResponse(Usuario user)
         {
-            TokenResponse UserTokenResponse = new();        
+            TokenResponse UserTokenResponse = new();
             UserTokenResponse.Token = await GenerateToken(user.NameUsuario);
             UserTokenResponse.IdRol = user.Idrol;
             return UserTokenResponse;
@@ -89,10 +90,9 @@ namespace Application.Services
             var user = await usuarioRepository.GetByParam(x => x.Email.Equals(correo));
             return user;
         }
-      
+
         public async Task<bool> ValidatePassword(string? password, string encryptedPassword)
         {
-
             var keyEncrypted = (await configuiuracionRepository.GetByParam(x => x.Id.Equals(ParamConfig.KeyEncrypted.ToString())))?.Value ?? string.Empty;
             var iVEncrypted = (await configuiuracionRepository.GetByParam(x => x.Id.Equals(ParamConfig.IVEncrypted.ToString())))?.Value ?? string.Empty;
             byte[] key = Encoding.UTF8.GetBytes(keyEncrypted);
@@ -106,6 +106,8 @@ namespace Application.Services
                 string decryptedPassword = Encoding.UTF8.GetString(decryptedPasswordBytes);
                 return decryptedPassword == password;
             }
+
+
         }
         private async Task<string> GenerateToken(string? userName = "")
         {
@@ -134,14 +136,14 @@ namespace Application.Services
         public async Task<bool> Handle(TokenRequest request, CancellationToken cancellationToken)
         {
             return await ValidateToken(request.Token);
-        } 
+        }
         public async Task<bool> ValidateToken(string token)
-        {        
-           
+        {
+
             try
             {
                 var tokenHeader = new JwtSecurityTokenHandler();
-                var secreKey = (await configuiuracionRepository.GetByParam(x => x.Id.Equals(ParamConfig.JwtSecretKey.ToString())))?.Value ?? string.Empty ;
+                var secreKey = (await configuiuracionRepository.GetByParam(x => x.Id.Equals(ParamConfig.JwtSecretKey.ToString())))?.Value ?? string.Empty;
                 var jwtIssuerToken = (await configuiuracionRepository.GetByParam(x => x.Id.Equals(ParamConfig.JwtIssuerToken.ToString())))?.Value;
                 var jwtAudienceToken = (await configuiuracionRepository.GetByParam(x => x.Id.Equals(ParamConfig.JwtIssuerToken.ToString())))?.Value;
                 var key = Encoding.ASCII.GetBytes(secreKey);
@@ -149,23 +151,23 @@ namespace Application.Services
                 {
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(key),
-                    ValidateIssuer= true,
-                    ValidIssuer = jwtIssuerToken, 
+                    ValidateIssuer = true,
+                    ValidIssuer = jwtIssuerToken,
                     ValidateAudience = true,
-                    ValidAudience = jwtAudienceToken,  
+                    ValidAudience = jwtAudienceToken,
                     ClockSkew = TimeSpan.Zero
-                };           
+                };
 
-                tokenHeader.ValidateToken(token, tokenParameter,out SecurityToken securutyToken);
+                tokenHeader.ValidateToken(token, tokenParameter, out SecurityToken securutyToken);
                 var jwtToken = (JwtSecurityToken)securutyToken;
                 var isOk = await SearchUser(jwtToken.Claims.First(t => t.Type == "unique_name").Value);
-                return isOk;    
+                return isOk;
             }
             catch (Exception ex)
-               {
-                 
+            {
+
                 throw new ApiException("Ocurrió un error inesperado", (int)System.Net.HttpStatusCode.InternalServerError);
-            }          
+            }
         }
         private async Task<bool> SearchUser(string username)
         {
